@@ -26,7 +26,7 @@ cp env.example .env
 ### Chromedriver
 Download from official website proper version of chromedriver for your OS: https://chromedriver.chromium.org/downloads
 - Update path to `chromedriver` executable in env variable
-- Allow `chromedriver` to run on MacOS 
+- Allow `chromedriver` to run on macOS 
 ```
 xattr -d com.apple.quarantine chromedriver
 ```
@@ -37,10 +37,10 @@ Ensure, that `social-network` application is running
 cd scraping-selenium
 python3 app.py
 ```
-NEW FEATURES:
-1. Can fake user (fake=True while initialisation class)
-2. Can fake content (fake=True in add_post method arguments)
-3. Can make delay between actions (delay = *int(seconds)* while initialisation class)
-```
-Make sure that user data from env is correct. Good luck
-```
+### NEW FEATURES:
+1. Can fake user (`fake=True` while initialisation class)
+2. Can fake content (`fake=True` in add_post method arguments)
+3. Can make delay between actions (`delay = int(seconds)` while initialisation class)
+
+
+* Make sure that user data from env is correct. Good luck. 
