@@ -40,7 +40,7 @@ python3 app.py
 ### NEW FEATURES:
 1. Can fake user (`fake=True` while initialisation class)
 2. Can fake content (`fake=True` in add_post method arguments)
-3. Can make delay between actions (`delay = int(seconds)` while initialisation class)
+3. Can make delay between actions (`delay = config.CHROME_DRIVER_DELAY` while initialisation class)
 
 
 * Make sure that user data from env is correct. Good luck. 
